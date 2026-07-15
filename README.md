@@ -11,8 +11,8 @@ Everything lives in a 10" rack.
 **Turing Pi 2** — cluster board hosting 2x Raspberry Pi CM4 and 2x Jetson Nano 2GB.
 | Node | Role |
 |--|--|
-| CM4 #1 | Local dev environment. Hosts most of my main homelab apps — projects I'm actively working on/testing, dashboards, monitoring, Discord bots, Tandoor Recipes, Jorgejo, and various custom-built tools/full-stack apps for day-to-day life. |
-| CM4 #2 | Runs my custom-written Kanban board that aggregates tasks from multiple sources (day job, freelance, Calico County, other personal projects). Also hosts my main MCP server with custom tools for automating daily tasks. |
+| CM4 8GB 32GB eMMC (CM4108032) | Local dev environment. Hosts most of my main homelab apps — projects I'm actively working on/testing, dashboards, monitoring, Discord bots, Tandoor Recipes, Jorgejo, and various custom-built tools/full-stack apps for day-to-day life. |
+| CM4 8GB 32GB eMMC (CM4108032) | Runs my custom-written Kanban board that aggregates tasks from multiple sources (day job, freelance, Calico County, other personal projects). Also hosts my main MCP server with custom tools for automating daily tasks. |
 | Jetson Nano 2GB x2 | Installed on the board. |
 
 **File server** — custom-built box (specs TBD) running Unraid as primary file storage. Also hosts services like Pi-hole.
