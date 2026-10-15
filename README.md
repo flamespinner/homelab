@@ -21,7 +21,7 @@ Everything lives in a 10" rack.
 | CM4 8GB 32GB eMMC (CM4108032) | Runs my custom-written Kanban board that aggregates tasks from multiple sources (day job, freelance, Calico County, other personal projects). Also hosts my main MCP server with custom tools for automating daily tasks. |
 | Empty Compute Blade | Planned Migration of CM4 Module from Turing Pi 2|
 | Empty Compute Blade | Hardware on its way |
-| Empty compute Blade | Hardware on its way |
+| Empty Compute Blade | Hardware on its way |
 
 **File server** — custom-built box (specs TBD) running Unraid as primary file storage. Also hosts services like Pi-hole.
 
@@ -38,7 +38,7 @@ Everything lives in a 10" rack.
 ## Historical Setup
 
 Modifications, as of 10/15/2026:
-    
+
 | # | Device | Info |
 |--|--|--|
 | 1 | RPi - Compute Blades | Added compute blades and started migration of hardware |
