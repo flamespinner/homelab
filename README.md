@@ -13,7 +13,7 @@ Everything lives in a 10" rack.
 |--|--|
 | CM4 8GB 32GB eMMC (CM4108032) | Local dev environment. Hosts most of my main homelab apps — projects I'm actively working on/testing, dashboards, monitoring, Discord bots, Tandoor Recipes, Jorgejo, and various custom-built tools/full-stack apps for day-to-day life. |
 | CM4 8GB 32GB eMMC (CM4108032) | Runs my custom-written Kanban board that aggregates tasks from multiple sources (day job, freelance, Calico County, other personal projects). Also hosts my main MCP server with custom tools for automating daily tasks. |
-| Jetson Nano 2GB x2 | Installed on the board. |
+| Jetson Nano 2GB x2 | Installed on the board, needs some work to fix bootloader or other issues preventing boot|
 
 **Compute Blade** — [Compute Blade Dev Kit](https://computeblade.com/) by Uptime Industries
 | Node | Role |
