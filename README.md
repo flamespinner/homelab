@@ -25,7 +25,7 @@ Everything lives in a 10" rack.
 
 **File server** — custom-built box (specs TBD) running Unraid as primary file storage. Also hosts services like Pi-hole.
 
-**LLM platform** *(new)* — Ryzen 5800X, 16GB RAM, ASUS ROG Strix (Phantom Gaming X) motherboard, dual Nvidia P40 GPUs. Runs Hermes as the primary agent along with llama.cpp for local LLM inference.
+**LLM platform** — Ryzen 5800X, 16GB RAM, ASUS ROG Strix (Phantom Gaming X) motherboard, dual Nvidia P40 GPUs. Runs Hermes as the primary agent along with llama.cpp for local LLM inference.
 
 **Networking** — UniFi USG gateway + UniFi 24-port switch tying the whole rack together with an asymmetrical 1gig fiber connection.
 
