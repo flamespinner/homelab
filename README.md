@@ -4,7 +4,7 @@ My homelab documentation, plans, network diagrams, useful scripts and just gener
 
 <br />
 
-## Current Setup (as of 7/10/2026)
+## Current Setup (as of 10/15/2026)
 
 Everything lives in a 10" rack.
 
@@ -15,6 +15,14 @@ Everything lives in a 10" rack.
 | CM4 8GB 32GB eMMC (CM4108032) | Runs my custom-written Kanban board that aggregates tasks from multiple sources (day job, freelance, Calico County, other personal projects). Also hosts my main MCP server with custom tools for automating daily tasks. |
 | Jetson Nano 2GB x2 | Installed on the board. |
 
+**Compute Blade** — [Compute Blade Dev Kit](https://computeblade.com/) by Uptime Industries
+| Node | Role |
+|--|--|
+| CM4 8GB 32GB eMMC (CM4108032) | Runs my custom-written Kanban board that aggregates tasks from multiple sources (day job, freelance, Calico County, other personal projects). Also hosts my main MCP server with custom tools for automating daily tasks. |
+| Empty Compute Blade | Planned Migration of CM4 Module from Turing Pi 2|
+| Empty Compute Blade | Hardware on its way |
+| Empty compute Blade | Hardware on its way |
+
 **File server** — custom-built box (specs TBD) running Unraid as primary file storage. Also hosts services like Pi-hole.
 
 **LLM platform** *(new)* — Ryzen 5800X, 16GB RAM, ASUS ROG Strix (Phantom Gaming X) motherboard, dual Nvidia P40 GPUs. Runs Hermes as the primary agent along with llama.cpp for local LLM inference.
@@ -23,7 +31,18 @@ Everything lives in a 10" rack.
 
 <br />
 
+**Ansible** *(new)* - Coming Soon
+
+<br />
+
 ## Historical Setup
+
+Modifications, as of 10/15/2026:
+    
+| # | Device | Info |
+|--|--|--|
+| 1 | RPi - Compute Blades | Added compute blades and started migration of hardware |
+| 2 | turing Pi 2 | Dedicated Turing Pi 2 for Jetson Nano 2gbs only.
 
 Original lab, as of 5/21/2020:
 
